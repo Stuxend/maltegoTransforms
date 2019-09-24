@@ -5,7 +5,7 @@ Maltego lib for python3 based on [MaltegoTransform-Python](https://github.com/pa
 
 We will create a Person Entity with a value of "CUIT" for argentinian reverse name.
 
-### Hello World
+### simple request to site 
 
 This transform merely returns "hello world" as a phrase, it doesn't depend on the input entity at all:
 
