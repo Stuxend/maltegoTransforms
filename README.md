@@ -7,7 +7,7 @@ We will create a Person Entity with a value of "CUIT" for argentinian reverse na
 
 ### simple request to site 
 
-This transform merely returns "hello world" as a phrase, it doesn't depend on the input entity at all:
+This transform use an entity with a ARGENTINIAN CUIT/CUIL, goes to the site "cuitonline" and then returns the name as a Person entity:
 
 ``` python
 from maltego import *
